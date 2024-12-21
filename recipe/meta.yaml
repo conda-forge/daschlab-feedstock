@@ -1,5 +1,5 @@
 {% set name = "daschlab" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/daschlab-{{ version }}.tar.gz
-  sha256: 1f72246a426d73e2939a371a7cd3cd6599918e312ccd30354e42269cf51040a0
+  sha256: 2719c8c563cda48f064eb892ca40729d73a7203755057d4d087ae0e3627a598e
 
 build:
   noarch: python
