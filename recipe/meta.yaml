@@ -1,5 +1,5 @@
 {% set name = "daschlab" %}
-{% set version = "0.3.0" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/daschlab-{{ version }}.tar.gz
-  sha256: 2719c8c563cda48f064eb892ca40729d73a7203755057d4d087ae0e3627a598e
+  sha256: fa0603c7939ca6e7b7607c0f19bfa5ccbd29aca2e98a8436ef2770cd16446095
 
 build:
   noarch: python
@@ -30,9 +30,10 @@ requirements:
     - pillow >=10
     - pycairo >=1.20
     - pytz >=2024
-    - pywwt >=0.24.2
+    - pywwt >=0.25
     - requests >=2
     - scipy >=1.10
+    - toasty >=0.20
     - tqdm >=4.60
 
 test:
