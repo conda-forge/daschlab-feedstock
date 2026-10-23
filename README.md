@@ -3,11 +3,19 @@ About daschlab-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/daschlab-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/pkgw/daschlab
+Home: https://daschlab.readthedocs.io/
 
 Package license: MIT
 
-Summary: DASCH data analysis
+Summary: DASCH data analysis package
+
+Development: https://github.com/pkgw/daschlab/
+
+Documentation: https://daschlab.readthedocs.io/
+
+daschlab is a Python package supporting scientific analysis of data from
+DASCH, the project to digitize the astronomical photographic glass plates of
+the Harvard College Observatory Plate Stacks collection.
 
 Current build status
 ====================
